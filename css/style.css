@@ -1,0 +1,401 @@
+.navbar{
+    background-color:#edf3f7;
+}
+.navbar-brand{
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+}
+
+.navbar-brand,.nav-link{
+    color: black!important;
+    
+}
+
+.navbar-nav{
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+
+/* JUMBOBTRON */
+.jumbotron{
+    background-image: url(../img/Jumbot.jpg);
+    background-size:cover;
+    height:420px;
+    text-align: center;
+}
+
+.jumbotron .display-4{
+    color:#f7f9fa;
+    font-family: 'Indie Flower', cursive;
+    font-size:38px;
+    margin-top:50px;
+    margin-bottom:20px;
+    border-radius: 20px;
+}
+
+.jumbotron, .display-4 span{
+    color: black;
+}
+
+
+
+/* RUANG KOSONG */
+.kosong{
+    background-color:#bfdaff;
+    
+  
+}
+/* END RAUNG KOSONG */
+
+
+/* INFO IBADAH */
+.info{
+    box-shadow: 0 3px 20px rgba(0,0,0,0.8);
+    background-color:white;
+    font-family: 'Indie Flower', cursive;
+    margin-top: -100px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.info h5{
+    text-align: center;
+    font-size: 16px;
+}
+
+.info h1{
+    font-size: 34px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+/* END INFO IBADAH */
+
+
+/* AKTIVITAS */
+.Activities{
+    font-family: 'Indie Flower', cursive;
+    background-color: #d9ecff;
+    min-height:1530px;
+    position: relative;
+}
+
+
+
+.Activities img{
+    margin-bottom: 24px;
+    box-shadow: 10px 10px 8px#575757;    
+    min-height:160px;
+}
+
+
+
+.Activities h1{
+    font-size: 33px;   
+    margin-bottom: 25px;
+    margin-top: 60px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+
+.Activities .img-fluid{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 1s;
+
+}
+
+.Activities .img-fluid.muncul{
+    opacity: 1;
+    transform: translate(0,0px);
+}
+
+/* END AKTIVITAS */
+
+
+
+/* INSTAGRAM */
+.follow{
+    background-color:#bfdaff;
+    min-height:260px;
+    position: relative;
+}
+
+.follow .hkiri{
+	opacity:0;
+	transform: translate(-50px, 0) rotate(20deg);
+	transition:1s;
+	}
+
+.follow .hkiri.muncul{
+	opacity:1;
+	transform: translate(0,0);
+}
+
+
+.follow h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 34px;
+    margin-top: 64px;
+    margin-bottom:40px;
+}
+/* END INSTAGRAM */
+
+
+
+/* YOUTUBE */
+.youtube{
+    background-color:#d9ecff;
+    min-height: 348px;
+    position: relative;
+}
+
+.hkanan{
+	opacity:0;
+	transform: translate(50px, 0) rotate(20deg);
+	transition:1s;
+	}
+
+.hkanan.muncul{
+	opacity:1;
+	transform: translate(0,0);
+}
+
+.youtube h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size:34px;
+    margin-top: 55px;
+    margin-bottom:30px;
+}
+/* END YOUTUBE */
+
+/* EVENT */
+.event {
+    background-color:#bfdaff;
+    min-height: 390px;
+    position: relative;
+}
+
+.event h1{
+    font-family: 'Indie Flower', cursive;   
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.event p{
+    font-family: 'Indie Flower', cursive;
+    font-size: -3px;
+	font-weight:20;
+    text-align: center;
+}
+/* END EVENT */
+
+.team{
+    background-color:#d9ecff;
+    min-height:1180px;
+    position: relative;
+}
+
+.team h1{
+    margin-top: 48px;
+    font-family: 'Indie Flower', cursive;   
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    font-size: 35px;
+    margin-bottom: 37px;
+}
+
+.team img{
+    margin-bottom: 20px;
+}
+
+.location{
+    min-height: 470px;
+    background-color:#bfdaff;
+}
+
+.location h1{
+    font-family: 'Indie Flower', cursive;   
+    margin-top: 40px;
+    font-size: 35px;
+    margin-bottom: 36px; 
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+
+.ikon{
+    margin-top: -20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color:black;
+    min-height: 100px;
+}
+
+.footer p{
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+/* TOMBOL */
+.tombol{
+    margin-left: 29px;
+    margin-top: -10px;
+    margin-bottom: 14px;
+    text-align: center;
+    text=transform:uppercase;
+    border-radius: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+/* END TOMBOL */
+
+.btt{
+    position: fixed;
+    width: 40px;
+    background:#21ddfb;
+    bottom:10px;
+    z-index: 9998;
+    right:14px;
+    box-shadow: 5px 6px 8px#575757;       
+}
+
+.btt:hover{
+    background:#21ddfb;
+    box-shadow: 5px 6px 8px#575757;       
+}
+
+.btt i{
+    color:white;
+    font-size:42px;
+    padding:6px;
+}
+
+.btt i:hover{
+    color: white;
+}
+
+@media (min-width: 576px) {
+    .jumbotron, .display-4{
+        color: black!important;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .navbar{
+        background-color:transparent;
+    }
+
+    .navbar-brand{
+        font-family: 'Indie Flower', cursive;
+        font-size: 33px;
+    }
+
+    .navbar-brand, .nav-link{
+        color: black !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+        }
+
+    .nav-link{
+        text-transform:uppercase;
+        margin-right: 80px;
+        margin-left: -40px;
+        letter-spacing: .1rem;
+        font-family: 'Indie Flower', cursive;
+        font-size: 17px;
+    }
+    
+    .jumbotron{
+        margin-top: -90px;
+        height:690px;
+    }
+
+    .jumbotron .display-4{
+        color:black;
+        font-family: 'Indie Flower', cursive;
+        font-size:38px;
+        margin-top:146px;
+        border-radius: 20px;
+    }
+    
+    .jumbotron, .display-4 span{
+        color: black;
+    }
+
+    .kosong{
+        background-color: #bfdaff;
+        min-height: 180px;
+    }
+
+
+    .Activities{
+        min-height:690px;
+    }
+    
+
+    .Activities img{
+        margin-bottom: 35px;
+        
+    }
+
+  
+    
+    .tombol{
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .follow{
+        margin-top: -0px;
+    }
+
+    .youtube h1{
+        margin-top: 68px;
+    }
+
+    .youtube{
+        min-height: 830px;
+    }
+
+    .event{
+        min-height: 510px;
+    }
+
+    .event h1{
+         font-family: 'Indie Flower', cursive;
+        font-size: 37px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+        margin-top: 65px;
+        margin-bottom: 20px;
+        margin-right: 150px;
+        
+     
+    }
+    .event p{
+        text-align: left;
+    }
+
+    .carousel{
+        margin-top: 37px;
+    }
+
+    .team{
+        min-height:990px;
+    }
+    
+    .location{
+        min-height: 900px;
+}
+
+
+}
+

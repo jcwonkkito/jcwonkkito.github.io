@@ -1,0 +1,158 @@
+.shape{
+    position: relative;
+}
+
+
+.shape::after,
+.shape::before{
+    position: absolute;
+    content:"";
+    width: 80px;
+    height: 40px;
+    background-color:#bfdaff;
+    bottom:-1em;
+    z-index: 100; 
+}
+
+.shape::before{
+    right:50%;
+    transform:skew( 0, 20deg); 
+}
+
+.shape::after{
+    left:50%;
+    transform:skew( 0, -20deg); 
+}
+
+
+
+.Activities::after,
+.Activities::before{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 40px;
+    background-color:#d9ecff;
+    bottom: -1em;
+    z-index:100;
+}
+
+.Activities::before{
+    right: 50%;
+    transform: skew(0, 20deg);     
+}
+
+.Activities::after{
+    left: 50%;
+    transform: skew(0, -20deg);
+}
+
+
+.follow::after,
+.follow::before{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 40px;
+    background-color:#bfdaff;
+    bottom: -1em;
+    z-index:100;
+}
+
+.follow::before{
+    right: 50%;
+    transform: skew(0, 20deg);     
+}
+
+.follow::after{
+    left: 50%;
+    transform: skew(0, -20deg);
+}
+
+
+.youtube::after, 
+.youtube::before{
+    position:absolute;
+    content: "";
+    width: 80px;
+    height: 40px;
+    background-color: #d9ecff;
+    z-index:100;
+    bottom: -1em;
+}
+
+.youtube::before{
+    right: 50%;
+    transform: skew(0, 20deg);
+}
+
+.youtube::after{
+    left: 50%;
+    transform: skew(0, -20deg);
+}
+
+.event::after, 
+.event::before{
+    position:absolute;
+    content: "";
+    width: 80px;
+    height: 40px;
+    background-color: #bfdaff;
+    z-index:100;
+    bottom: -1em;
+}
+
+.event::before{
+    right: 50%;
+    transform: skew(0, 20deg);
+}
+
+.event::after{
+    left: 50%;
+    transform: skew(0, -20deg);
+}
+
+.team::after, 
+.team::before{
+    position:absolute;
+    content: "";
+    width: 80px;
+    height: 40px;
+    background-color: #d9ecff;
+    z-index:100;
+    bottom: -1em;
+}
+
+.team::before{
+    right: 50%;
+    transform: skew(0, 20deg);
+}
+
+.team::after{
+    left: 50%;
+    transform: skew(0, -20deg);
+}
+
+@media (min-width: 992px) { 
+    .Activities::after,
+    .Activities::before{
+        position: absolute;
+        content:"";
+        width: 80px;
+        height: 40px;
+        background-color:#d9ecff;
+        bottom:-1em;
+        z-index: 100; 
+    }
+
+    .Activities::before{
+    right:50%;
+    transform:skew( 0, 20deg); 
+}
+
+    .Activities::after{
+    left:50%;
+    transform:skew( 0, -20deg); 
+}
+
+}
