@@ -2,7 +2,7 @@
     background-color:#edf3f7;
 }
 .navbar-brand{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 22px;
 }
 
@@ -12,8 +12,7 @@
 }
 
 .navbar-nav{
-    font-family: 'Indie Flower', cursive;
-    
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -26,8 +25,8 @@
 }
 
 .jumbotron .display-4{
-    color:#f7f9fa;
-    font-family: 'Indie Flower', cursive;
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
     font-size:38px;
     margin-top:50px;
     margin-bottom:20px;
@@ -53,7 +52,7 @@
 .info{
     box-shadow: 0 3px 20px rgba(0,0,0,0.8);
     background-color:white;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     margin-top: -100px;
     border-radius: 20px;
     padding: 20px;
@@ -74,9 +73,9 @@
 
 /* AKTIVITAS */
 .Activities{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     background-color: #d9ecff;
-    min-height:1530px;
+    min-height:1570px;
     position: relative;
 }
 
@@ -84,15 +83,14 @@
 
 .Activities img{
     margin-bottom: 24px;
-    box-shadow: 10px 10px 8px#575757;    
-    min-height:160px;
+    box-shadow: 10px 10px 8px#575757;   
+    min-height:160px; 
 }
-
 
 
 .Activities h1{
     font-size: 33px;   
-    margin-bottom: 25px;
+    margin-bottom: 20   px;
     margin-top: 60px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
@@ -149,15 +147,15 @@
     position: relative;
 }
 
-.hkanan{
-	opacity:0;
-	transform: translate(50px, 0) rotate(20deg);
-	transition:1s;
-	}
+.youtube .hkanan{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 1s;
+}
 
-.hkanan.muncul{
-	opacity:1;
-	transform: translate(0,0);
+.youtube .hkanan.muncul{
+    opacity: 1;
+    transform: translate(0,0px);
 }
 
 .youtube h1{
@@ -171,12 +169,23 @@
 /* EVENT */
 .event {
     background-color:#bfdaff;
-    min-height: 390px;
+    min-height: 490px;
     position: relative;
 }
 
+.event .hbawah{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 1s;
+}
+
+.event .hbawah.muncul{
+    opacity: 1;
+    transform: translate(0,0px);
+}
+
 .event h1{
-    font-family: 'Indie Flower', cursive;   
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
     text-transform: uppercase;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
@@ -186,9 +195,10 @@
 }
 
 .event p{
-    font-family: 'Indie Flower', cursive;
-    font-size: -3px;
-	font-weight:20;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight:40;
+    margin-top: 40px;
     text-align: center;
 }
 /* END EVENT */
@@ -199,9 +209,21 @@
     position: relative;
 }
 
+.team .hmuncul{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 1s;
+}
+
+.team .hmuncul.muncul{
+    opacity: 1;
+    transform: translate(0,0px);
+}
+
+
 .team h1{
     margin-top: 48px;
-    font-family: 'Indie Flower', cursive;   
+    font-family: 'Josefin Sans', sans-serif;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
     font-size: 35px;
     margin-bottom: 37px;
@@ -217,7 +239,7 @@
 }
 
 .location h1{
-    font-family: 'Indie Flower', cursive;   
+    font-family: 'Josefin Sans', sans-serif;
     margin-top: 40px;
     font-size: 35px;
     margin-bottom: 36px; 
@@ -251,7 +273,7 @@
     text-align: center;
     text=transform:uppercase;
     border-radius: 20px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Josefin Sans', sans-serif;
 }
 /* END TOMBOL */
 
@@ -293,7 +315,7 @@
     }
 
     .navbar-brand{
-        font-family: 'Indie Flower', cursive;
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 33px;
     }
 
@@ -307,7 +329,7 @@
         margin-right: 80px;
         margin-left: -40px;
         letter-spacing: .1rem;
-        font-family: 'Indie Flower', cursive;
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 17px;
     }
     
@@ -318,7 +340,7 @@
 
     .jumbotron .display-4{
         color:black;
-        font-family: 'Indie Flower', cursive;
+        font-family: 'Josefin Sans', sans-serif;
         font-size:38px;
         margin-top:146px;
         border-radius: 20px;
@@ -341,11 +363,8 @@
 
     .Activities img{
         margin-bottom: 35px;
-        
     }
 
-  
-    
     .tombol{
         margin-left: 0px;
         margin-top: 0px;
@@ -370,7 +389,7 @@
     }
 
     .event h1{
-         font-family: 'Indie Flower', cursive;
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 37px;
         text-transform: uppercase;
         text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
@@ -398,4 +417,5 @@
 
 
 }
+
 
