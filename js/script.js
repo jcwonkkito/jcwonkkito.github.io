@@ -42,12 +42,29 @@ $(window).scroll (function(){
 	}; 
 
 	
-	if ( wScroll > $('.youtube').offset().top -120){
-		$('.hkanan').each(function(i){
+		if ( wScroll > $('.youtube').offset().top -120){
+		$('.youtube .hkanan').each(function(i){
 			setTimeout(function(){
-				$('.hkanan').eq(i).addClass('muncul');
+				$('.youtube .hkanan').eq(i).addClass('muncul');
 			}, 200 * (i+1));
 		});
-	}; 
+	};
+	
+	if ( wScroll > $('.event').offset().top -100){
+		$('.event .hbawah').each(function(i){
+			setTimeout(function(){
+				$('.event .hbawah').eq(i).addClass('muncul');
+			}, 200 * (i+1));
+		});
+	};
+	
+	if ( wScroll > $('.team').offset().top -100){
+		$('.team .hmuncul').each(function(i){
+			setTimeout(function(){
+				$('.team .hmuncul').eq(i).addClass('muncul');
+			}, 200 * (i+1));
+		});
+	};
+	
 });
 
