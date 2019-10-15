@@ -1,31 +1,3 @@
-.shape{
-    position: relative;
-}
-
-
-.shape::after,
-.shape::before{
-    position: absolute;
-    content:"";
-    width: 80px;
-    height: 40px;
-    background-color:#bfdaff;
-    bottom:-1em;
-    z-index: 100; 
-}
-
-.shape::before{
-    right:50%;
-    transform:skew( 0, 20deg); 
-}
-
-.shape::after{
-    left:50%;
-    transform:skew( 0, -20deg); 
-}
-
-
-
 .Activities::after,
 .Activities::before{
     position: absolute;
