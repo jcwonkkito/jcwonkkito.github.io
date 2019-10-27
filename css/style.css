@@ -170,7 +170,7 @@
 /* EVENT */
 .event {
     background-color:#bfdaff;
-    min-height: 490px;
+    min-height: 470px;
     position: relative;
 }
 
@@ -191,7 +191,7 @@
     text-transform: uppercase;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -199,7 +199,7 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     font-weight:40;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 /* END EVENT */
@@ -386,7 +386,7 @@
     }
 
     .event{
-        min-height: 510px;
+        min-height: 997px;
     }
 
     .event h1{
@@ -397,13 +397,10 @@
         margin-top: 65px;
         margin-bottom: 20px;
         margin-right: 150px;
-        
+        text-align: center;
      
     }
-    .event p{
-        text-align: left;
-    }
-
+ 
     .carousel{
         margin-top: 37px;
     }
