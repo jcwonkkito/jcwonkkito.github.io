@@ -76,7 +76,7 @@
 .Activities{
     font-family: 'Josefin Sans', sans-serif;
     background-color: #d9ecff;
-    min-height:1570px;
+    min-height:1510px;
     position: relative;
 }
 
@@ -144,7 +144,7 @@
 /* YOUTUBE */
 .youtube{
     background-color:#d9ecff;
-    min-height: 348px;
+    min-height: 356px;
     position: relative;
 }
 
@@ -170,7 +170,7 @@
 /* EVENT */
 .event {
     background-color:#bfdaff;
-    min-height: 470px;
+    min-height: 469px;
     position: relative;
 }
 
@@ -358,7 +358,7 @@
 
 
     .Activities{
-        min-height:690px;
+        min-height:680px;
     }
     
 
