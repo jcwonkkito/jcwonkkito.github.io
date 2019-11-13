@@ -76,7 +76,7 @@
 .Activities{
     font-family: 'Josefin Sans', sans-serif;
     background-color: #d9ecff;
-    min-height:1528px;
+    min-height:1554px;
     position: relative;
 }
 
@@ -167,23 +167,13 @@
 }
 /* END YOUTUBE */
 
-/* EVENT */
+/* EVENT *
 .event {
     background-color:#bfdaff;
     min-height: 469px;
     position: relative;
 }
 
-.event .hbawah{
-    opacity: 0;
-    transform: translate(0, -40px);
-    transition: 1s;
-}
-
-.event .hbawah.muncul{
-    opacity: 1;
-    transform: translate(0,0px);
-}
 
 .event h1{
     font-family: 'Josefin Sans', sans-serif;
@@ -202,10 +192,10 @@
     margin-top: 20px;
     text-align: center;
 }
-/* END EVENT */
+END EVENT */
 
 .team{
-    background-color:#d9ecff;
+    background-color:#bfdaff;
     min-height:1180px;
     position: relative;
 }
@@ -236,7 +226,7 @@
 
 .location{
     min-height: 470px;
-    background-color:#bfdaff;
+    background-color:#d9ecff;
 }
 
 .location h1{
