@@ -50,13 +50,8 @@ $(window).scroll (function(){
 		});
 	};
 	
-	if ( wScroll > $('.event').offset().top -100){
-		$('.event .hbawah').each(function(i){
-			setTimeout(function(){
-				$('.event .hbawah').eq(i).addClass('muncul');
-			}, 200 * (i+1));
-		});
-	};
+	
+
 	
 	if ( wScroll > $('.team').offset().top -100){
 		$('.team .hmuncul').each(function(i){
